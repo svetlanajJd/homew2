@@ -44,26 +44,27 @@ public class Main {
         float meanDays = weightAthleteTranslated / meanWeight;
         System.out.println("В среднем для сброса веса может потребоваться " + meanDays + " дней");
 
-        int currentSalaryMasha = 67760;
-        int currentSalaryDenis = 83690;
-        int currentSalaryKristina = 76230;
-        byte month = 12;
-        byte percent = 10;
-        int additionMasha = currentSalaryMasha / percent;
-        int additionDenis = currentSalaryDenis / percent;
-        int additionKristina = currentSalaryKristina / percent;
-        int additionSalaryMasha = currentSalaryMasha + additionMasha;
-        System.out.println("Маша теперь получает " + additionSalaryMasha + " рублей в месяц");
-        int differenceMasha = additionMasha * month;
-        System.out.println("Годовой доход Маши вырос на " + differenceMasha + " рублей");
-        int additionSalaryDenis = currentSalaryDenis + additionDenis;
-        System.out.println("Денис теперь получает " + additionSalaryDenis + " рублей");
-        int differenceDenis = additionDenis * month;
-        System.out.println("Годовой доход Дениса вырос на " + differenceDenis + " рублей");
-        int additionSalaryKristina = currentSalaryKristina + additionKristina;
-        System.out.println("Кристина теперь получает " + additionSalaryKristina + " рублей");
-        int differenceKristina = additionKristina * month;
-        System.out.println("Годовой доход Кристины вырос на " + differenceKristina + " рублей");
+        int currentSalaryMasha=67760;
+        int currentSalaryDenis=83690;
+        int currentSalaryKristina=76230;
+        byte month=12;
+        byte percent=10;
+        int additionMasha=currentSalaryMasha/percent;
+        int additionDenis=currentSalaryDenis/percent;
+        int additionKristina=currentSalaryKristina/percent;
+        int additionSalaryMasha =currentSalaryMasha+additionMasha;
+        System.out.println("Маша теперь получает "+additionSalaryMasha+" рублей в месяц");
+        int differenceMasha=additionMasha*month;
+        System.out.println("Годовой доход Маши вырос на "+differenceMasha+" рублей");
+        int additionSalaryDenis=currentSalaryDenis+additionDenis;
+        System.out.println("Денис теперь получает "+additionSalaryDenis+" рублей");
+        int differenceDenis=additionDenis*month;
+        System.out.println("Годовой доход Дениса вырос на "+differenceDenis+" рублей");
+        int additionSalaryKristina=currentSalaryKristina+additionKristina;
+        System.out.println("Кристина теперь получает "+additionSalaryKristina+" рублей");
+        int differenceKristina=additionKristina*month;
+        System.out.println("Годовой доход Кристины вырос на "+differenceKristina+" рублей");
+
 
 
     }
