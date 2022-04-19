@@ -59,7 +59,11 @@ public class Main {
         int additionSalaryDenis=currentSalaryDenis+additionDenis;
         System.out.println("Денис теперь получает "+additionSalaryDenis+" рублей");
         int differenceDenis=additionDenis*month;
-        System.out.println("Годовой дход Дениса вырос на "+differenceDenis+" рублей");
+        System.out.println("Годовой доход Дениса вырос на "+differenceDenis+" рублей");
+        int additionSalaryKristina=currentSalaryKristina+additionKristina;
+        System.out.println("Кристина теперь получает "+additionSalaryKristina+" рублей");
+        int differenceKristina=additionKristina*month;
+        System.out.println("Годовой доход Кристины вырос на "+differenceKristina+" рублей");
 
 
 
